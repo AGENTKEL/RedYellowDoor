@@ -19,6 +19,7 @@ public class BlackLevelManager : MonoBehaviour
         if (blackRoomPrefabs.Count == 0)
         {
             Debug.LogError("No black room prefabs assigned!");
+            StartCoroutine(RefreshSettingsCE());
             return;
         }
 

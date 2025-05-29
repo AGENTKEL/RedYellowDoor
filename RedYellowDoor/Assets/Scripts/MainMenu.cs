@@ -60,9 +60,10 @@ public class MainMenu : MonoBehaviour
     {
         // Reset room progress
         Game_Manager.instance.ResetAllRoomProgress();
-
-        // Optionally clear PlayerPrefs if you want to start fresh
+        int ID = PlayerPrefs.GetInt("LocaleKey");
         PlayerPrefs.DeleteAll();
+        Game_Manager.instance.SetLangChosen(true);
+        PlayerPrefs.SetInt("LocaleKey", ID);
 
         // Load the intro scene or any starting scene
         SceneManager.LoadScene("Intro");
@@ -73,7 +74,7 @@ public class MainMenu : MonoBehaviour
     {
         menuObject.SetActive(true);
         langObject.SetActive(false);
-        Game_Manager.instance.langChoosen = true;
+        Game_Manager.instance.SetLangChosen(true);
     }
 
     // Called when the "Continue" button is pressed

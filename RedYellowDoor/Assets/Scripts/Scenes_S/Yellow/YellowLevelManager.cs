@@ -29,6 +29,10 @@ public class YellowLevelManager : MonoBehaviour
             // Re-activate the same level if reloading
             yellowRoomPrefabs[lastIndex.Value].SetActive(true);
             Debug.Log($"Reactivating last Yellow Room prefab index: {lastIndex.Value}");
+            Game_Manager.instance.AdjustGameObjectsForSoundSettings();
+            Game_Manager.instance.AdjustGameObjectsForLocalization();
+            Game_Manager.instance.AdjustGameObjectsForSubtitlesSettings();
+            StartCoroutine(RefreshSettingsCE(0.5f));
             return;
         }
 
@@ -59,12 +63,12 @@ public class YellowLevelManager : MonoBehaviour
         Game_Manager.instance.AdjustGameObjectsForSoundSettings();
         Game_Manager.instance.AdjustGameObjectsForLocalization();
         Game_Manager.instance.AdjustGameObjectsForSubtitlesSettings();
-        StartCoroutine(RefreshSettingsCE());
+        StartCoroutine(RefreshSettingsCE(1f));
     }
 
-    private IEnumerator RefreshSettingsCE()
+    private IEnumerator RefreshSettingsCE(float time)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(time);
         Game_Manager.instance.AdjustGameObjectsForSoundSettings();
         Game_Manager.instance.AdjustGameObjectsForLocalization();
         Game_Manager.instance.AdjustGameObjectsForSubtitlesSettings();

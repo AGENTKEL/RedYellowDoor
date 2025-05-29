@@ -36,6 +36,7 @@ public class Game_Manager : MonoBehaviour
     private const string MusicKey = "Music";
     private const string SoundKey = "Sound";
     private const string SubtitlesKey = "Subtitles";
+    private const string LangChosenKey = "LanguageChosen";
     
     [Header("Language Settings")]
     public bool langChoosen = false;
@@ -83,6 +84,11 @@ public class Game_Manager : MonoBehaviour
     
     public void ContinueGame()
     {
+        if (roomsPassed == 1 && yellowRoomsPassed == 0 && redRoomsPassed == 0)
+        {
+            SceneManager.LoadScene("Begin");
+            return;
+        }
         if (!string.IsNullOrEmpty(lastSceneName))
         {
             // Restore room index based on which scene we're continuing into
@@ -280,6 +286,28 @@ public class Game_Manager : MonoBehaviour
         PlayerPrefs.SetInt(BlackDoorUsesKey, 0);
         PlayerPrefs.Save();
     }
+    
+        public void ResetAllRoomProgressAfterDeath()
+        {
+            roomsPassed = 1;
+            redRoomsPassed = 0;
+            yellowRoomsPassed = 0;
+            blackRoomsPassed = 0;
+            blackDoorUses = 0;
+            
+            yellowRoomsUsed.Clear();
+            redRoomsUsed.Clear();
+            
+            Game_Manager.instance.lastYellowRoomIndex = null;
+            Game_Manager.instance.lastRedRoomIndex = null;
+    
+            PlayerPrefs.SetInt(RoomsPassedKey, 1);
+            PlayerPrefs.SetInt(RedRoomsPassedKey, 0);
+            PlayerPrefs.SetInt(YellowRoomsPassedKey, 0);
+            PlayerPrefs.SetInt(BlackRoomsPassedKey, 0);
+            PlayerPrefs.SetInt(BlackDoorUsesKey, 0);
+            PlayerPrefs.Save();
+        }
 
     public DoorScript.DoorColor GetNextExpectedRoomColor()
     {
@@ -341,7 +369,9 @@ public class Game_Manager : MonoBehaviour
     {
         isMusicOn = PlayerPrefs.GetInt(MusicKey, 1) == 1;
         isSoundOn = PlayerPrefs.GetInt(SoundKey, 1) == 1;
+        langChoosen = PlayerPrefs.GetInt(LangChosenKey, 0) == 1;
         areSubtitlesOn = PlayerPrefs.GetInt(SubtitlesKey, 1) == 1;
+        
     }
     
     public void AdjustGameObjectsForLocalization()
@@ -417,5 +447,13 @@ public class Game_Manager : MonoBehaviour
                 childTransform.gameObject.SetActive(areSubtitlesOn);
             }
         }
+    }
+    
+    
+    public void SetLangChosen(bool value)
+    {
+        langChoosen = value;
+        PlayerPrefs.SetInt(LangChosenKey, value ? 1 : 0);
+        PlayerPrefs.Save();
     }
 }

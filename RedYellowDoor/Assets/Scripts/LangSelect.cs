@@ -11,11 +11,8 @@ public class LangSelect : MonoBehaviour
     private bool active = false;
     private void Start()
     {
-        if (!Game_Manager.instance.langChoosen)
-        {
-            int ID = PlayerPrefs.GetInt("LocaleKey");
-            ChangeLocale(ID);
-        }
+        int ID = PlayerPrefs.GetInt("LocaleKey");
+        ChangeLocale(ID);
     }
 
     public void ChangeLocale(int localeID)

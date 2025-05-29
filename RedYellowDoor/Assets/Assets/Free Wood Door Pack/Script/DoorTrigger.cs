@@ -53,8 +53,8 @@ public class DoorTrigger : MonoBehaviour
             
             if (SceneManager.GetActiveScene().name == "Begin")
             {
-                Game_Manager.instance.yellowRoomsPassed++;
                 Game_Manager.instance.roomsPassed++;
+                Game_Manager.instance.yellowRoomsPassed++;
                 Game_Manager.instance._interstitialController.OnRoomPassed(() => {
                     Game_Manager.instance.OnDoorEntered2(linkedDoor.doorColor);
                     return;

@@ -41,7 +41,7 @@ public class PlayerUI : MonoBehaviour
     public void ToMenuLost()
     {
         Time.timeScale = 1;
-        Game_Manager.instance.ResetAllRoomProgress();
+        Game_Manager.instance.ResetAllRoomProgressAfterDeath();
         SceneManager.LoadScene("Menu");
     }
 
