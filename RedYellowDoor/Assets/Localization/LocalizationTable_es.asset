@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 1a8d69f50be69be48a8ae5057a636d14, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 24924483584
+    m_Localized: Nuevo Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 390501448380416
+    m_Localized: "Hasta el espejo te rechaza. Nunca ser\xEDas digno de ella."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566488928710656
+    m_Localized: "Solo la oscuridad abrir\xE1 el camino. Recuerda, la luz no se rendir\xE1
+      sin luchar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 822206558728192
+    m_Localized: "El paciente sufri\xF3 un accidente y lleva varios meses en coma
+      profundo. Cree que solo est\xE1 jugando a un juego de ni\xF1os. Quiz\xE1s sea
+      lo mejor.\r\nSi el paciente sale de esta habitaci\xF3n y sigue hundi\xE9ndose
+      en s\xED mismo, su mente nunca volver\xE1 a su estado anterior y tendremos
+      que desconectarlo de todo soporte vital."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252634821849088
+    m_Localized: FRACASO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252868314558464
+    m_Localized: "\rComenzar\xE1s un nuevo viaje"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253045528096768
+    m_Localized: Respawn para ver anuncios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253261035630592
+    m_Localized: "Salir al men\xFA y reiniciar el juego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2264924883349504
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2266847900430336
+    m_Localized: "\rHaga clic para comenzar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2292710654177280
+    m_Localized: "< Espa\xF1ol >"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297567419133952
+    m_Localized: "Subt\xEDtulos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297663690993664
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297788765138944
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2424783612243968
+    m_Localized: "\rPausa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2424995827249152
+    m_Localized: "\rSaltar para publicidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3076336694161408
+    m_Localized: "Desde hace mucho tiempo no queda ni una sola persona real en lo
+      m\xE1s alto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3076697270087680
+    m_Localized: Todos nos encontraremos con ellos al menos una vez. De 3 a 4 am.
+      Techo, ventana o espejo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3081477681934336
+    m_Localized: "\xBFC\xF3mo lograste llegar hasta aqu\xED sola?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9023304146710528
+    m_Localized: 'ANUNCIO: NUEVOS JUEGOS EN GOOGLE PLAY'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046252635123712
+    m_Localized: "Aqu\xED no hay tiempo; los relojes mienten. Ese tictac no deber\xEDa
+      existir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046419857829888
+    m_Localized: "\rNo te duermas. Te arrancar\xE1n la piel. Y vendr\xE1 por los
+      huesos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046522811215872
+    m_Localized: 'Las reglas son:
+
+      1. No respondas a los susurros de los rincones.
+
+      2.
+      No cuentes los pasos en los pasillos.
+
+      3. Si te ves, cierra los ojos.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046688381366272
+    m_Localized: "Las puertas no son salidas. Son trampas. Quieren que elijas. \xA1PERO
+      NO DEBES ELEGIR!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046796221116416
+    m_Localized: Si una puerta se abre sola, no entres. Si se cierra sola, no intentes
+      salir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046928178114560
+    m_Localized: "Las luces parpadear\xE1n, cierra los ojos. Si ves qui\xE9n est\xE1
+      parado en la esquina, dejar\xE1s de ser humano."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046990455140352
+    m_Localized: "Cuando empezamos el juego, \xE9ramos cuatro. Pero ya no te acuerdas.
+      \xBFPor qu\xE9 nos ignoras? \xBFPor qu\xE9 solo hablas con ella?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047087565860864
+    m_Localized: "Estoy atada a una silla. Me da de comer sus pasteles. No s\xE9
+      qu\xE9 tipo de carne es, pero quiero m\xE1s. Tengo el est\xF3mago destrozado
+      desde hace mucho tiempo, pero sigo tragando."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047183581868032
+    m_Localized: "No hay puertas en esta habitaci\xF3n. Ni siquiera la que entr\xE9.
+      No hay nada aqu\xED. Ni siquiera el tiempo. Ni siquiera yo. Por favor, ayuda...
+      Mam\xE1, \xBFpor qu\xE9 empec\xE9 a jugar a esto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047258039152640
+    m_Localized: "Su reino est\xE1 m\xE1s all\xE1 de la puerta amarilla. Todas las
+      respuestas est\xE1n ah\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047340977319936
+    m_Localized: "El juego ha ido demasiado lejos. Apaga el tel\xE9fono. Mira la
+      pantalla. \xBFDe verdad crees que es tu reflejo el que te mira desde la oscuridad?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1a8d69f50be69be48a8ae5057a636d14, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 24924483584
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 390501448380416
+    m_Localized: Even the mirror rejects you. You would never be worthy of her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566488928710656
+    m_Localized: Only darkness will open the way forward. Remember, the light won't
+      surrender without a fight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 822206558728192
+    m_Localized: "The patient was in an accident and has been in a deep coma for
+      several months. He believes he\u2019s just playing a children\u2019s game.
+      Maybe it\u2019s for the best.\r\nIf the patient leaves this room and keeps
+      sinking deeper into himself, his mind will never return to its former state,
+      and we\u2019ll have to disconnect him from all life support.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252634821849088
+    m_Localized: DEFEAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252868314558464
+    m_Localized: You will begin a new journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253045528096768
+    m_Localized: Respawn for ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253261035630592
+    m_Localized: Leave to menu and try again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2264924883349504
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2266847900430336
+    m_Localized: Press to start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2292710654177280
+    m_Localized: < English >
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297567419133952
+    m_Localized: Subtitles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297663690993664
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297788765138944
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2424783612243968
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2424995827249152
+    m_Localized: Skip for ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3076336694161408
+    m_Localized: There hasn't been a single real person left at the very top for
+      a long time now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3076697270087680
+    m_Localized: Everyone will meet them at least once. From 3 to 4 am. Ceiling,
+      window or mirror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3081477681934336
+    m_Localized: "\rHow did you manage to get here alone?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9023304146710528
+    m_Localized: 'AD: NEW GAMES ON GOOGLE PLAY'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046252635123712
+    m_Localized: "There is no time here - the clocks lie. That ticking shouldn\u2019t
+      exist."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046419857829888
+    m_Localized: "Don\u2019t fall asleep. They\u2019ll take your skin. And he\u2019ll
+      come for the bones."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046522811215872
+    m_Localized: "The rules lie:\r\n1. Don\u2019t answer the whispers from the corners.\r\n2.
+      Don\u2019t count the footsteps in the halls.\r\n3. If you see yourself\u2014close
+      your eyes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046688381366272
+    m_Localized: "The doors aren\u2019t exits. They\u2019re traps. They want you
+      to choose. BUT YOU MUSTN\u2019T CHOOSE!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046796221116416
+    m_Localized: "If a door opens by itself\u2014don\u2019t enter. If it closes by
+      itself\u2014don\u2019t try to leave."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046928178114560
+    m_Localized: "The lights will flicker\u2014close your eyes. If you see who\u2019s
+      standing in the corner, you won\u2019t be human anymore."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9046990455140352
+    m_Localized: "When we started the game, there were four of us. But you don\u2019t
+      remember anymore. Why are you ignoring us? Why do you only talk to her?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047087565860864
+    m_Localized: "I\u2019m tied to a chair. He feeds me his pies. I don\u2019t know
+      what kind of meat it is, but I want more. My stomach has been torn open for
+      a long time, but I keep swallowing."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047183581868032
+    m_Localized: "There are no doors in this room. Not even the one I came through.
+      There\u2019s nothing here. Not even time. Not even myself. Please, help\u2026
+      Mom, why did I start playing this?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047258039152640
+    m_Localized: His kingdom lies beyond the yellow door. All the answers are there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9047340977319936
+    m_Localized: "The game has gone too far. Turn off your phone. Look at the screen.
+      Do you really think it\u2019s your reflection staring back from the darkness?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

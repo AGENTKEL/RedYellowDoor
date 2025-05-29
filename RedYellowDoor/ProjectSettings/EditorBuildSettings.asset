@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Menu/Menu.unity
+    guid: 4628eb067c99fa247bcc3e984e200514
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Intro/Intro.unity
+    guid: f381cb88bab19d744b43532dd5fe8eb4
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Begin/Begin.unity
+    guid: d46e41a59d543bc4fabd353f6e61f736
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Yellow/Yellow.unity
+    guid: e06e1098d023e0146b3e2b971004cb39
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Red/Red.unity
+    guid: a94eb51043c5ac648b1b11ed40cb909f
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Endings/Black_End/Black_End.unity
+    guid: 3943d2abe4b966c43947cb138a266fde
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Endings/CycleRoom/Cycle_Room.unity
+    guid: 656d6e19c1f59b340a5fcf5da4056f3a
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Endings/End/End.unity
+    guid: 8e0a5603c4934c7419ef02deeb52a3c8
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Endings/End_2/End_2.unity
+    guid: 542d62c32b3f498438c6996ba945f5df
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Special/Endings/Final/Final.unity
+    guid: 890d742c4fe33114eb816c77c41985cb
+  - enabled: 1
+    path: Assets/Scripts/Scenes_S/Black/Black.unity
+    guid: 1e942f23a3343d94e978f59d4072b81a
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 45d677acedc6e7e40ac9673492f1b045, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: f9478f4900dd0344d8f584aad7d4a48f, type: 2}
+  m_UseUCBPForAssetBundles: 0

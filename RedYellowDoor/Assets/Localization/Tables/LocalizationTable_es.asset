@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 292587687dfb3ba4294f39335c0e18eb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 24924483584
+    m_Localized: Nuevo Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 390501448380416
+    m_Localized: "Hasta el espejo te rechaza. Nunca ser\xEDas digno de ella."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566488928710656
+    m_Localized: "Solo la oscuridad abrir\xE1 el camino. Recuerda, la luz no se rendir\xE1
+      sin luchar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 822206558728192
+    m_Localized: "El paciente sufri\xF3 un accidente y lleva varios meses en coma
+      profundo. Cree que solo est\xE1 jugando a un juego de ni\xF1os. Quiz\xE1s sea
+      lo mejor.\r\nSi el paciente sale de esta habitaci\xF3n y sigue hundi\xE9ndose
+      en s\xED mismo, su mente nunca volver\xE1 a su estado anterior y tendremos
+      que desconectarlo de todo soporte vital."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252634821849088
+    m_Localized: FRACASO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2252868314558464
+    m_Localized: "\rComenzar\xE1s un nuevo viaje"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253045528096768
+    m_Localized: Respawn para ver anuncios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2253261035630592
+    m_Localized: "Salir al men\xFA y reiniciar el juego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2264924883349504
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2266847900430336
+    m_Localized: "\rHaga clic para comenzar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2292710654177280
+    m_Localized: "< Espa\xF1ol >"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297567419133952
+    m_Localized: "Subt\xEDtulos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297663690993664
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2297788765138944
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2424783612243968
+    m_Localized: "\rPausa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2424995827249152
+    m_Localized: "\rSaltar para publicidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3076336694161408
+    m_Localized: "Desde hace mucho tiempo no queda ni una sola persona real en lo
+      m\xE1s alto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3076697270087680
+    m_Localized: Todos nos encontraremos con ellos al menos una vez. De 3 a 4 am.
+      Techo, ventana o espejo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3081477681934336
+    m_Localized: "\xBFC\xF3mo lograste llegar hasta aqu\xED sola?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
